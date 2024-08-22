@@ -1,0 +1,103 @@
+.companies{
+    background-color:rgba(192,214,251,255) ;
+    margin-top: 90px;
+    padding-left: 80px;
+    padding-right: 80px;
+    align-items: center;
+    font-family: 'Font', sans-serif;
+}
+h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.uni-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 6rem;
+    row-gap: 6rem;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3rem;
+    
+}
+.uni-photo{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 1024px){
+    .companies{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:rgba(192,214,251,255) ;
+        margin-top: 90px;
+        padding: 0;
+        align-items: center;
+        width: 100%;
+        
+    }
+    h4{
+        text-align: center;
+        font-weight: bold;
+        font-size: 36px;
+        padding: 0;
+    }
+    .uni-img{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        column-gap: 4rem;
+        row-gap: 9rem;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 60px;
+        width: 70%;
+        padding-left: 15%;
+        padding-right: 15%;
+        
+    }
+    
+}
+@media (max-width: 600px){
+    .companies{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 90px;
+        margin-bottom: 30px;
+        align-items: center;
+        width: 100%;
+        
+    }
+    h4{
+        text-align: center;
+        font-weight: bold;
+        padding: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .uni-img {
+        display: grid;
+        justify-items: center; 
+        align-items: center; 
+        row-gap: 2rem; 
+        width: 84%;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .uni-photo{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,152 @@
+.resources{
+    padding: 55px 140px 2px 140px;
+    align-items: center;
+    font-family: 'Font', sans-serif;
+}
+.h11{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 25px;
+}
+.cards{
+    padding-top: 30px;
+    padding-bottom: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.h10{
+    font-weight: bold;
+    font-size: 18px;
+}
+.p11{
+    font-size: 17px;
+    margin-top: 60px;
+    height:130px;
+}
+.button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #4c9cfc;
+    border:none;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;  
+}
+.comps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    background-color:rgba(192,214,251,255) ;
+    width: 330px;
+    height: 370px;
+    margin-bottom: 10px; 
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.comps .button{
+    align-self: center;
+}
+@media (min-width: 600px) and (max-width: 1024px){
+    .resources{
+        display: flex;
+        flex-direction: column;
+        padding: 55px 0px 2px 0px;
+        align-items: center;
+        width:101%;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+        width: 34rem;
+        margin: 0 auto;
+    }
+
+    .comps{
+        width: 24rem;
+        height: 28rem;
+        margin-left: 0px;
+    }
+    
+    .button{
+        margin-top: 30px;
+        width: 17rem;
+        height: 4rem;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    .h10{
+        font-weight: bold;
+        font-size: 25px;
+        
+    }
+    .p11{
+        font-size: 20px;
+    }
+    .h11{
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+        padding-top: 0px;
+        margin-bottom: 25px;
+        width: 80%;
+    }
+}
+@media (max-width: 600px){
+    .resources{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+        width:100%;
+    }
+    .cards{
+        padding-top: 30px;
+        padding-bottom: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        row-gap: 20px;
+        border-bottom: 1px solid black;
+        margin: 0 auto;
+    }
+    .comps{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        margin-bottom: 10px; 
+        margin-left: 0px;
+        border-radius: 30px;
+    }
+    .button{
+        margin-top: 30px;
+    }
+    .h10{
+        font-size: 24px;
+    }
+    .h11{
+        text-align: center;
+        padding-top: 0px;
+        margin-bottom: 25px;
+        padding: 35px;
+    }
+    .p11{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
