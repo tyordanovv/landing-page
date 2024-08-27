@@ -15,7 +15,7 @@ const OrientationSurvey = () => {
                     Welcome to Accademium - the innovative SaaS solution<br></br>
                     designed to accelerate and simplify the application process.
                 </p>
-                <a href="#">
+                <a href="/survey">
                     <button className="survey-button">Take your free career orientation survey &#10230;</button>
                 </a>
             </div>
